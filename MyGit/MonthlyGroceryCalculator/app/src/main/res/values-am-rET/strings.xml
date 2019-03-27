@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">አስቤዛ</string>
+    <string name="vegitable_name">ታክልት</string>
+    <string name="onion_name">ሽንኩርት</string>
+    <string name="potato_name">ድንች</string>
+    <string name="tomato_name">ቲማቲም</string>
+    <string name="fruit_name">ፍራ ፍሬ</string>
+    <string name="banana_name">ሙዝ</string>
+    <string name="orange_name">ቡርቱካን</string>
+    <string name="papaya_name">ፓፓያ</string>
+    <string name="detriegent_name">ሳሙና   </string>
+    <string name="bodysoap_name">ገላ ሳሙና</string>
+    <string name="tissuepaper_name">ሶፍት</string>
+    <string name="clothsoap_name">ልብስ ሳሙና</string>
+    <string name="oil_name">ዘይት  </string>
+    <string name="olive_name">ሊቭ</string>
+    <string name="butter_name">ቅቤ</string>
+    <string name="cookingoil_name">የምግብ ዘይት</string>
+    <string name="utility_name">Utility</string>
+    <string name="waterbill_name">ውሃ  </string>
+    <string name="electricbill_name">ሌትርክ</string>
+    <string name="internet_name">ንተርኔት</string>
+    <string name="calculate_button_name">ሒሳብ ስራ</string>
+    <string name="notification_title">month alert</string>
+    <string name="notification_text">Its been month since you bought house supplies</string>
+    <string name="alarm_on_toast">on</string>
+    <string name="alarm_off_toast">off</string>
+
+</resources>

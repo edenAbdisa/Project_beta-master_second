@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Monthly Budget</string>
+    <string name="vegitable_name">Vegetable</string>
+    <string name="action_delete">Clear file</string>
+    <string name="action_search">Edit</string>
+    <string name="action_record">Record Video</string>
+    <string name="save_action">Save</string>
+    <string name="action_label">Add Label</string>
+    <string name="action_play">Play Video</string>
+    <string name="delete_by_date">Delete By Date</string>
+    <string name="onion_name">Onion</string>
+    <string name="potato_name">Potato</string>
+    <string name="tomato_name">Tomato</string>
+    <string name="fruit_name">Fruit</string>
+    <string name="banana_name">Banana</string>
+    <string name="orange_name">Orange</string>
+    <string name="papaya_name">Papaya</string>
+    <string name="detriegent_name">Detergent</string>
+    <string name="bodysoap_name">Body Soap</string>
+    <string name="tissuepaper_name">Tissue Paper</string>
+    <string name="clothsoap_name">Cloth Soap</string>
+    <string name="oil_name">Oil</string>
+    <string name="olive_name">Olive</string>
+    <string name="butter_name">Butter</string>
+    <string name="cookingoil_name">Cooking Oil</string>
+    <string name="utility_name">Utility</string>
+    <string name="waterbill_name">Water bill</string>
+    <string name="electricbill_name">Electric bill</string>
+    <string name="internet_name">Internet</string>
+    <string name="calculate_button_name">calculate</string>
+    <string name="notification_title">month alert</string>
+    <string name="notification_text">Its been month since you bought house supplies</string>
+    <string name="alarm_on_toast">on</string>
+    <string name="alarm_off_toast">off</string>
+</resources>

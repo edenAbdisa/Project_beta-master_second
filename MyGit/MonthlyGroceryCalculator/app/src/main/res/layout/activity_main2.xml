@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.edenasbeza.Main2Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/inside_scroll">
+
+            <LinearLayout
+                android:id="@+id/veg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:id="@+id/vegitable_textview"
+                        android:layout_width="328dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:text="@string/vegitable_name"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewvegitable2"
+                        android:layout_width="61dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorsub"
+                        app:srcCompat="@drawable/ic_add"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/onion_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/onion_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/onion_name"/>
+                    <EditText
+                        android:id="@+id/onion_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="kilo" />
+                    <EditText
+                        android:id="@+id/onion_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per kilo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/potato_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/potato_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/potato_name" />
+
+                    <EditText
+                        android:id="@+id/potato_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="kilo"
+                        android:value="0" />
+
+                    <EditText
+                        android:id="@+id/potato_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per kilo"
+                        android:value="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tomato_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/tomato_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/tomato_name" />
+
+                    <EditText
+
+                        android:id="@+id/tomato_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+
+                        android:inputType="number"
+                        android:hint="kilo" />
+
+                    <EditText
+                        android:id="@+id/tomato_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per kilo"
+                        android:value="0" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fruit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:id="@+id/fruit_textview"
+                        android:layout_width="328dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:text="@string/fruit_name"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewfruit2"
+                        android:layout_width="61dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorsub"
+                        app:srcCompat="@drawable/ic_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/banana_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/banana_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/banana_name" />
+
+                    <EditText
+                        android:id="@+id/banana_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="kilo" />
+
+                    <EditText
+                        android:id="@+id/banana_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per kilo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/orange_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/orange_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/orange_name" />
+
+                    <EditText
+                        android:id="@+id/orange_kilo_edittext"
+                        android:layout_width="10dp"
+
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="kilo" />
+
+                    <EditText
+                        android:id="@+id/orange_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+
+                        android:inputType="number"
+                        android:hint="price per kilo" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/papaya_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/papaya_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/papaya_name" />
+
+                    <EditText
+                        android:id="@+id/papaya_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="kilo" />
+
+                    <EditText
+                        android:id="@+id/papaya_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per kilo" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/detrigent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:id="@+id/detrigent_textview"
+                        android:layout_width="328dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:text="@string/detriegent_name"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewdetrigent2"
+                        android:layout_width="61dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorsub"
+                        app:srcCompat="@drawable/ic_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bodysoap_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/bodysoap_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/bodysoap_name" />
+
+                    <EditText
+                        android:id="@+id/bodysoap_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Pieces" />
+
+                    <EditText
+                        android:id="@+id/bodysoap_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+
+                        android:inputType="number"
+                        android:hint="price per piece" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tissuepaper_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tissuepaper_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/tissuepaper_name" />
+
+                    <EditText
+                        android:id="@+id/tissuepaper_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Pieces" />
+
+                    <EditText
+                        android:id="@+id/tissuepaper_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per piece" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/clothsoap_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/clothsoap_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/clothsoap_name" />
+
+                    <EditText
+                        android:id="@+id/clothsoap_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Pieces" />
+
+                    <EditText
+                        android:id="@+id/clothsoap_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per piece" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/oil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:id="@+id/oil_textview"
+                        android:layout_width="328dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:text="@string/oil_name"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewoil2"
+                        android:layout_width="61dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorsub"
+                        app:srcCompat="@drawable/ic_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/olive_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/olive_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/olive_name" />
+
+                    <EditText
+                        android:id="@+id/olive_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Pieces" />
+
+                    <EditText
+                        android:id="@+id/olive_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per piece" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/butter_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/butter_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/butter_name" />
+
+                    <EditText
+                        android:id="@+id/butter_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="Pieces" />
+
+                    <EditText
+                        android:id="@+id/butter_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per piece" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/cookingoil_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/cookingoil_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/cookingoil_name" />
+
+                    <EditText
+                        android:id="@+id/cookingoil_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="pieces" />
+
+                    <EditText
+                        android:id="@+id/cookingoil_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per piece" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/utility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:id="@+id/utility_textview"
+                        android:layout_width="328dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:text="@string/utility_name"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewutility2"
+                        android:layout_width="61dp"
+                        android:layout_height="40dp"
+                        android:background="@color/colorsub"
+                        app:srcCompat="@drawable/ic_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/water_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/water_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/waterbill_name" />
+
+                    <EditText
+                        android:id="@+id/water_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="number of months" />
+
+                    <EditText
+                        android:id="@+id/water_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per month" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/electric_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/electric_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/electricbill_name" />
+
+                    <EditText
+                        android:id="@+id/electric_kilo_edittext"
+                        android:layout_width="10dp"
+
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="number of months" />
+
+                    <EditText
+                        android:id="@+id/electric_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per month" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/internet_linearlayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/internet_textview"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/internet_name" />
+
+                    <EditText
+                        android:id="@+id/internet_kilo_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="number of months" />
+
+                    <EditText
+                        android:id="@+id/internet_price_edittext"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:hint="price per month" />
+                </LinearLayout>
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/result_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:id="@+id/result_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textColor="@color/colorblack"/>
+        </LinearLayout>
+            <LinearLayout
+                android:id="@+id/action_linearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/save"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    app:srcCompat="@android:drawable/ic_menu_save" />
+
+                <Button
+                    android:id="@+id/sum_button"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/calculate_button_name"
+                    android:textSize="30sp"
+                    android:foreground="?selectableItemBackground"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:fontFamily="cursive"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
